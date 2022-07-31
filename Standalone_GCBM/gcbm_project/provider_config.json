@@ -1,28 +1,19 @@
 {
     "Providers": {
         "SQLite": {
-            "path": "..\\input_database\\gcbm_input.db",
+            "path": "../input_database/gcbm_input.db",
             "type": "SQLite"
         },
         "RasterTiled": {
             "layers": [
-                {
-                    "name": "LifeZone",
-                    "layer_path": "..\\layers\\tiled\\LifeZone_moja.tiff",
-                    "layer_prefix": "LifeZone_moja"
-                },
-                {
-                    "name": "mean_annual_temperature",
-                    "layer_path": "..\\layers\\tiled\\mean_annual_temperature_moja.tiff",
-                    "layer_prefix": "mean_annual_temperature_moja"
-                }
+
             ],
-            "blockLonSize": 0.1,
-            "tileLatSize": 1.0,
-            "tileLonSize": 1.0,
-            "cellLatSize": 0.01,
-            "cellLonSize": 0.01,
-            "blockLatSize": 0.1,
+            "blockLonSize": 0,
+            "tileLatSize": 0,
+            "tileLonSize": 0,
+            "cellLatSize": 0,
+            "cellLonSize": 0,
+            "blockLatSize": 0,
             "type": "RasterTiledGDAL",
             "library": "moja.modules.gdal"
         }
